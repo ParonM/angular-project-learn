@@ -1,0 +1,11 @@
+<div>
+  <h1 style="text-align: center">{{title}}</h1>
+  <img *ngIf="isMeruj" class="center" src="https://scontent.fevn1-4.fna.fbcdn.net/v/t1.0-9/27752573_924510231042393_7125359111323164453_n.jpg?_nc_cat=108&ccb=2&_nc_sid=174925&_nc_ohc=Ky2g0tRW_EoAX8EeSK-&_nc_ht=scontent.fevn1-4.fna&oh=9e8fd0ea1e831cb444281c7d6c91acdf&oe=603B8539" alt="Meruj" width="500" height="500"  />
+  <img *ngIf="!isMeruj" class="center" src="https://scontent.fevn1-4.fna.fbcdn.net/v/t31.0-8/18671730_1411097488946561_8803829570337441520_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=eqNonnwDqvYAX9VZ-Y3&_nc_ht=scontent.fevn1-4.fna&oh=afa9b8442b8e130241ee3a116035b8d4&oe=6038408F" alt="Meruj" width="500" height="500"  />
+  <br>
+  <br>
+  <button type="submit" class="btn btn-outline-success center"
+          (click)="manChange()">
+    {{buttonName}}
+  </button>
+</div>
